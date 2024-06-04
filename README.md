@@ -1,66 +1,20 @@
-## Foundry
+# LoyalSwap
 
-**Foundry is a blazing fast, portable and modular toolkit for Ethereum application development written in Rust.**
+## Why ?
 
-Foundry consists of:
+To make users more loyal to your project, and reward liqudity suppliers in case of impermanent losses
 
--   **Forge**: Ethereum testing framework (like Truffle, Hardhat and DappTools).
--   **Cast**: Swiss army knife for interacting with EVM smart contracts, sending transactions and getting chain data.
--   **Anvil**: Local Ethereum node, akin to Ganache, Hardhat Network.
--   **Chisel**: Fast, utilitarian, and verbose solidity REPL.
+## How ?
 
-## Documentation
+with use of different fees
 
-https://book.getfoundry.sh/
+- increase fee if there a lot of sales recently. 
+- decrease fees for buying assets in this conditions
+- increase fees if user sales more than some threashold of assets he owns (more than 30%)
+- 
 
-## Usage
 
-### Build
+TODO
 
-```shell
-$ forge build
-```
-
-### Test
-
-```shell
-$ forge test
-```
-
-### Format
-
-```shell
-$ forge fmt
-```
-
-### Gas Snapshots
-
-```shell
-$ forge snapshot
-```
-
-### Anvil
-
-```shell
-$ anvil
-```
-
-### Deploy
-
-```shell
-$ forge script script/Counter.s.sol:CounterScript --rpc-url <your_rpc_url> --private-key <your_private_key>
-```
-
-### Cast
-
-```shell
-$ cast <subcommand>
-```
-
-### Help
-
-```shell
-$ forge --help
-$ anvil --help
-$ cast --help
-```
+1. take 1-3 projects and analyse user behaviour during public unlocks and so on.
+2. 
